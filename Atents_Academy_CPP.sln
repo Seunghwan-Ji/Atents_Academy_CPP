@@ -7,7 +7,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01_Variable_01", "01_Variab
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01_Variable_02", "01_Variable_02\01_Variable_02.vcxproj", "{B9F9A5DB-5B1E-4C11-8465-80A208E3247F}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02__Operator_01", "02__Operator_01\02__Operator_01.vcxproj", "{89231AFD-ACFD-4E40-83CA-7AAD90F39463}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02_Operator_01", "02_Operator_01\02__Operator_01.vcxproj", "{89231AFD-ACFD-4E40-83CA-7AAD90F39463}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
