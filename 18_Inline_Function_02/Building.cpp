@@ -37,12 +37,3 @@ void Building::CheckFloor(int floor) {
 		break;
 	}
 }
-
-void Building::CheckAllFloor() {
-	cout << endl;
-	cout << "빌딩의 모든 시스템을 체크합니다." << endl;
-
-	for (int i = 0; i < _maxFloor; i++) {
-		CheckFloor(i);
-	}
-}
