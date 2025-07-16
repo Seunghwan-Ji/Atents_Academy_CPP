@@ -23,9 +23,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02_Operator_07", "02_Operat
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02_Operator_08", "02_Operator_08\02_Operator_08.vcxproj", "{BE4BBD94-1FB7-4E27-8881-14A8360FB2CE}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03_Conditional_Statement_01", "03_Conditional_Statement_01\03_Conditional_Statement_01.vcxproj", "{A4BE5CFA-ADB9-438F-AA59-DC41FED3FCB9}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03_Conditional_Statement_02", "03_Conditional_Statement_02\03_Conditional_Statement_02.vcxproj", "{045AA61E-0D43-4BCF-A5AC-E5F6E183DBF8}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03_Conditional_Statement_01", "03_Conditional_Statement_01\03_Conditional_Statement_02.vcxproj", "{045AA61E-0D43-4BCF-A5AC-E5F6E183DBF8}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04_Switch_Case_01", "04_Switch_Case_01\04_Switch_Case_01.vcxproj", "{7D6DD9DF-EF12-4AA6-9233-051A30ACC350}"
 EndProject
@@ -167,14 +165,6 @@ Global
 		{BE4BBD94-1FB7-4E27-8881-14A8360FB2CE}.Release|x64.Build.0 = Release|x64
 		{BE4BBD94-1FB7-4E27-8881-14A8360FB2CE}.Release|x86.ActiveCfg = Release|Win32
 		{BE4BBD94-1FB7-4E27-8881-14A8360FB2CE}.Release|x86.Build.0 = Release|Win32
-		{A4BE5CFA-ADB9-438F-AA59-DC41FED3FCB9}.Debug|x64.ActiveCfg = Debug|x64
-		{A4BE5CFA-ADB9-438F-AA59-DC41FED3FCB9}.Debug|x64.Build.0 = Debug|x64
-		{A4BE5CFA-ADB9-438F-AA59-DC41FED3FCB9}.Debug|x86.ActiveCfg = Debug|Win32
-		{A4BE5CFA-ADB9-438F-AA59-DC41FED3FCB9}.Debug|x86.Build.0 = Debug|Win32
-		{A4BE5CFA-ADB9-438F-AA59-DC41FED3FCB9}.Release|x64.ActiveCfg = Release|x64
-		{A4BE5CFA-ADB9-438F-AA59-DC41FED3FCB9}.Release|x64.Build.0 = Release|x64
-		{A4BE5CFA-ADB9-438F-AA59-DC41FED3FCB9}.Release|x86.ActiveCfg = Release|Win32
-		{A4BE5CFA-ADB9-438F-AA59-DC41FED3FCB9}.Release|x86.Build.0 = Release|Win32
 		{045AA61E-0D43-4BCF-A5AC-E5F6E183DBF8}.Debug|x64.ActiveCfg = Debug|x64
 		{045AA61E-0D43-4BCF-A5AC-E5F6E183DBF8}.Debug|x64.Build.0 = Debug|x64
 		{045AA61E-0D43-4BCF-A5AC-E5F6E183DBF8}.Debug|x86.ActiveCfg = Debug|Win32

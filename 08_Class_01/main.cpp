@@ -28,7 +28,7 @@ using namespace std;
 
 class Son {
 private:
-    string address; // 멤버변수
+    string address; // 멤버변수 (string: C++ 문자열 타입, string 헤더에 정의됨)
     string juminNum;
     string name;
     int age;
