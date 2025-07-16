@@ -70,7 +70,11 @@ int main()
 	cout << "만들 몬스터의 마리수를 입력하세요: ";
 	cin >> count;
 
-	Monster** ppMonsterArray = new Monster * [count];
+	Monster** ppMonsterArray = new Monster*[count]; // 몬스터형 포인터 배열을 count 사이즈 만큼 할당한다.
+	// 변수 ppMonsterArray 의 데이터 타입이 이중 포인터인 이유:
+	// 이 배열의 요소들은 각각 포인터들이고, 역참조 했을 때 포인터 형태로 보여지려면
+	// 이 배열을 담는 변수의 데이터 타입은 이중 포인터 타입이어야 배열의 선두번지 주소값을 역참조 했을 때
+	// 포인터 형태로 보여지기 때문이다.
 
 	for (int i = 0; i < count; i++)
 	{
