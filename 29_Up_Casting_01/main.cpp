@@ -81,7 +81,7 @@ int main() {
     cout << "포인터 타입으로 전달" << endl;
     Parent* pparent = &child; // 포인터타입 UpCasting
 
-    pparent->ShowInfo();   // pparent가 Paretn* 타입이어서 Parent타입의 ShowInfo 함수가 홏출
+    pparent->ShowInfo();   // pparent가 Paretn* 타입이어서 Parent 클래스의 ShowInfo 함수가 호출
 
     Child* pchild = (Child*)pparent; // DownCasting
 
