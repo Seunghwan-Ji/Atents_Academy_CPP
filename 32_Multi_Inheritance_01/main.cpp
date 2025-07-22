@@ -56,5 +56,14 @@ int main()
 {
     Child child(10, 20, 30, 40);
 
+    // child.ShowInfo(); 모호함이 발생하는 경우 정확히 호출 범위를 지정해주시면 됩니다.
+    child.Parent1::ShowInfo();
+
+    child.Parent2::_value = 100;
+
+    Parent1& ref1 = child;
+
+    ref1.ShowInfo();
+
     return 0;
 }
