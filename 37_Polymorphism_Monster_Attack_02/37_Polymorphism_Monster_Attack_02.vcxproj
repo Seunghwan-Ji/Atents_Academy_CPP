@@ -126,12 +126,14 @@
     <ClCompile Include="CrimsonRaptor.cpp" />
     <ClCompile Include="Dragon.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Monster.cpp" />
     <ClCompile Include="Ogre.cpp" />
     <ClCompile Include="Slime.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CrimsonRaptor.h" />
     <ClInclude Include="Dragon.h" />
+    <ClInclude Include="Monster.h" />
     <ClInclude Include="Ogre.h" />
     <ClInclude Include="Slime.h" />
   </ItemGroup>
