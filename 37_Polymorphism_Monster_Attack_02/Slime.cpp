@@ -13,6 +13,20 @@ int Slime::GetPhysicalAttackRegist()
 	return _physicalAttackRegist;
 }
 
+int Slime::Hit(int damage, Monster& enemy)
+{
+	damage -= _defense;
+
+	if (damage < 0)
+		damage = 0;
+
+	_health -= damage;
+
+	cout << _name << " 이(가) " << damage << " 만큼의 피해를 입음." << endl;
+
+	return damage;
+}
+
 void Slime::Info()
 {
 	Monster::Info();

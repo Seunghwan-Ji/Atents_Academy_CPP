@@ -12,5 +12,7 @@ public:
 
 	int GetPhysicalAttackRegist();
 
+	virtual int Hit(int damage, Monster& enemy) override;
+
 	void Info();
 };
