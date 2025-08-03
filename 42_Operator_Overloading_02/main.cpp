@@ -84,7 +84,8 @@ int main() {
     Complex c(0, 0);
 
 
-    //a = 1; // 묵시적형변환
+    // a = 1; // 묵시적형변환
+    // -> a = Complex(1); (x) explict 키워드 땜에 컴파일 오류로 방어함.
 
     a = Complex(1); // 명시적형변환
 
