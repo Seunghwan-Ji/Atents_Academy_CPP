@@ -110,10 +110,7 @@ void InputStudent(Student& ref) {
 
 
 void PrintStudent(Student& ref) {
-    cout << "이름: " << ref._name << endl;
-    cout << "학년: " << ref._grade << endl;
-    cout << "반: " << ref._classNum << endl;
-    cout << endl;
+    cout << "이름: " << ref._name << ", 학년: " << ref._grade << ", 반: " << ref._classNum << endl;
 }
 
 int main() {
@@ -145,9 +142,13 @@ int main() {
     cout << array << endl;
 
     Ascending ascending;
+    Decending decending;
 
     array.Sort(ascending);
 
     cout << array << endl;
 
+    array.Sort(decending);
+
+    cout << array << endl;
 }
